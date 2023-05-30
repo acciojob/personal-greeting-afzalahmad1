@@ -8,8 +8,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <label htmlFor="name">Enter Your Name</label>
-        <br/>
+        <p>Enter your name</p>
         <input type="text"
         id="name"
         value={name}
